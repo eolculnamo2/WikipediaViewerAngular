@@ -5,7 +5,7 @@ function go(){
     
     fetch(url)
     .then((response)=>{
-        response.json();
+        return response.json();
     })
     .then((search)=>{
         console.log(search);
